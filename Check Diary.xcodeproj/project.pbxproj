@@ -14,6 +14,9 @@
 		CB20B589219FF38D00C38F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB20B587219FF38D00C38F3F /* LaunchScreen.storyboard */; };
 		CB20B594219FF38E00C38F3F /* Check_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B593219FF38E00C38F3F /* Check_DiaryTests.swift */; };
 		CB20B59F219FF38E00C38F3F /* Check_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B59E219FF38E00C38F3F /* Check_DiaryUITests.swift */; };
+		CB20B5AD21A009C800C38F3F /* todayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B5AC21A009C800C38F3F /* todayViewController.swift */; };
+		CB20B5AF21A00A0200C38F3F /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B5AE21A00A0200C38F3F /* calenderViewController.swift */; };
+		CB20B5B121A00A2600C38F3F /* howmanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B5B021A00A2600C38F3F /* howmanyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CB20B59A219FF38E00C38F3F /* Check DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB20B59E219FF38E00C38F3F /* Check_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_DiaryUITests.swift; sourceTree = "<group>"; };
 		CB20B5A0219FF38E00C38F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB20B5AC21A009C800C38F3F /* todayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayViewController.swift; sourceTree = "<group>"; };
+		CB20B5AE21A00A0200C38F3F /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
+		CB20B5B021A00A2600C38F3F /* howmanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howmanyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				CB20B57E219FF38300C38F3F /* AppDelegate.swift */,
 				CB20B580219FF38300C38F3F /* ViewController.swift */,
 				CB20B582219FF38300C38F3F /* Main.storyboard */,
+				CB20B5AE21A00A0200C38F3F /* calenderViewController.swift */,
+				CB20B5AC21A009C800C38F3F /* todayViewController.swift */,
 				CB20B585219FF38D00C38F3F /* Assets.xcassets */,
 				CB20B587219FF38D00C38F3F /* LaunchScreen.storyboard */,
 				CB20B58A219FF38D00C38F3F /* Info.plist */,
+				CB20B5B021A00A2600C38F3F /* howmanyViewController.swift */,
 			);
 			path = "Check Diary";
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB20B5AF21A00A0200C38F3F /* calenderViewController.swift in Sources */,
+				CB20B5B121A00A2600C38F3F /* howmanyViewController.swift in Sources */,
 				CB20B581219FF38300C38F3F /* ViewController.swift in Sources */,
+				CB20B5AD21A009C800C38F3F /* todayViewController.swift in Sources */,
 				CB20B57F219FF38300C38F3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
