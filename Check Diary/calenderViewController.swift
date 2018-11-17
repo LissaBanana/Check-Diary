@@ -9,6 +9,17 @@
 import UIKit
 
 class calenderViewController: UIViewController {
+    
+    //lisa
+    func getScreenShot(windowFrame: CGRect) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(windowFrame.size, false, 0.0)
+        let context: CGContext = UIGraphicsGetCurrentContext()!
+        self.view.layer.render(in: context)
+        let capturedImage : UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        
+        return capturedImage
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
